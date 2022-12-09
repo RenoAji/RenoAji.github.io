@@ -1,3 +1,6 @@
+:link{
+	text-decoration: none;
+}
 li{
 	list-style-type: none;
 }
@@ -40,7 +43,7 @@ main{
 	text-align: left;
 	margin: 0;
 }
-.about p{
+p{
 	font-family: sans-serif;
 	margin-top: 0.1em;
 }
@@ -142,4 +145,56 @@ form input{
 
 .contact button:hover{
 	background-color: #454545;
+}
+
+.project .flex{
+	justify-content: center;
+	padding: 1em;
+}
+.card{
+	border-radius: 8px;
+	width: 170px;
+	height: 220px;
+	color: white;
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+.icon{
+	width: 90px;
+	height: 60px;
+	margin: auto;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.card a{
+	color: white;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.3em auto;
+}
+
+.card p{
+	margin-top: 1em;
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: 90;
+}
+
+.project{
+	width: 100vw;
+	text-align: center;
+}
+
+@media (max-width : 572px){
+	.about{
+		width: 90%;
+	}
 }
