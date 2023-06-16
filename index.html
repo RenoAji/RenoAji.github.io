@@ -1,21 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	
+<body class="bg-dark" >
+
+
+	<nav class="navbar navbar-expand-lg bg-dark-subtle sticky-top" >
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+			  <a class="nav-link" aria-current="page" href="#">About</a>
+			  <a class="nav-link" href="#project">Project</a>
+			  <a class="nav-link" href="#contact">Contact</a>
+			</div>
+		  </div>
+		</div>
+	  </nav>
+
+
+	  <div class="container border text-center rounded p-1 mt-4">
+		<div class="row row-cols-md-2 row-cols-1 pe-3">
+		  <div class="col">
+			<img src="img/noprofile.jfif" class="img-thumbnail m-1" alt="...">
+			<figcaption class="figure-caption">Septareno Nugroho Aji</figcaption>
+		  </div>
+		  <div class="col">
+			<div class="p-1 pt-3" id="about">
+				<h1>About Me</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at accusantium expedita quidem architecto. Similique blanditiis alias inventore animi ut enim modi iure, architecto quos totam quibusdam dolorem officia laudantium!</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
 
 
 
+	  <div class="container border text-center rounded mt-4 p-3">
+		<h1 class="mb-3">My Project</h1>
+		<div id="project" class="carousel slide" data-bs-theme="dark">
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<div class="card m-auto" style="width: 18rem;">
+					<div class="card-body">
+						<h5 class="card-title">TicTacToe</h5>
+						<h6 class="card-subtitle mb-2 text-body-secondary">Simple Game Prjoect</h6>
+						<p class="card-text">Simple project made with HTML, CSS, and Javascript</p>
+						<a href="https://github.com/RenoAji/tic-tac-toe" class="card-link">Github Repo</a>
+						<a href="https://RenoAji.github.io/tic-tac-toe" class="card-link">Visit</a>
+					</div>
+					</div>
+			  </div>
+			  <div class="carousel-item">
+				<div class="card m-auto" style="width: 18rem;">
+					<div class="card-body">
+						<h5 class="card-title">TicTacToe</h5>
+						<h6 class="card-subtitle mb-2 text-body-secondary">Simple Game Project</h6>
+						<p class="card-text">Simple project made with HTML, CSS, and Javascript</p>
+						<a href="https://github.com/RenoAji/tic-tac-toe" class="card-link">Github Repo</a>
+						<a href="https://RenoAji.github.io/tic-tac-toe" class="card-link">Visit</a>
+					</div>
+					</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#project" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#project" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+	  </div>
+	  
+	  <div class="container border rounded mt-4" id="contact">
+		<h1 class="text-center">Contact Me</h1>
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Name</label>
+			<input type="text" class="form-control" id="exampleFormControlInput1">
+		  </div>
+		  <div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Email address</label>
+			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+		  </div>
+		  <div class="mb-3">
+			<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-secondary mb-3">Send</button>
+	  </div>
 
-
-
-
-
+	<script src="script.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
 </html>
