@@ -1,198 +1,381 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark:dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reno Aji</title>
+<html lang="id" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RenoAji</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="src/output.css" rel="stylesheet">
-</head>
-<body>
-    <!-- HERO SECTION -->
-    <div class="hero bg-base-200 min-h-screen">
-        <div class="mx-3 hero-content flex-col lg:flex-row-reverse md:bg-base-300/40 px-8 md:border md:border-slate-400 md:rounded-lg">
-            <img src="img/profile.JPG" class="lg:max-w-64 max-w-24 rounded-2xl lg:rounded-lg shadow-2xl"/>
-            <div>
-                <h1 class="text-5xl font-bold">Hello There!</h1>
-                <p class="py-6">
-                    Nama saya Septareno Nugroho Aji. Mahasiswa Teknik Informatika di Politeknik Elektronika Negeri Surabaya.
-                    Saya memiliki minat besar di bidang pemrograman dan akan berusaha sebaik mungkin untuk menjadi programmer yang kompeten.
-                    Saya selalu terbuka pada setiap kesempatan yang bisa meningkatkan kompetensi saya dalam bidang pemrograman.
-                </p>
-                
-                 <div class="p-1 size-fit flex mt-3 bg-base-100/20 rounded-xl border-slate-300 border">
-                    <a href="https://github.com/RenoAji" class="btn btn-ghost" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-                    </a>
-                    <a href="https://www.instagram.com/renoaji0/" class="btn btn-ghost" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-                    </a>
-                    <a href="https://www.linkedin.com/in/septareno-nugroho-aji-4743992b3/" class="btn btn-ghost" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-                    </a>
-                 </div>
-                 <div class="py-2 mt-4 border-y border-slate-400 md:w-1/2">
-                    <h4 class="text-2xl">Tools I Have Used</h4>
-                    <div class="flex gap-6 py-2 flex-wrap">
-                        <!-- Logo HTML -->
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
-                            <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                        </svg>
-                        <!-- Logo CSS -->
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
-                            <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
-                        </svg>
-                        <!-- Logo PHP -->
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" id="svg3430" version="1.1" viewBox="0 0 711.20123 383.5975" width="48" xml:space="preserve">
-                            <title id="title3510">Official PHP Logo</title>
-                            <metadata id="metadata3436">
-                              <rdf:RDF>
-                                <cc:Work rdf:about="">
-                                  <dc:format>image/svg+xml</dc:format>
-                                  <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-                                  <dc:title>Official PHP Logo</dc:title>
-                                  <dc:creator>
-                                    <cc:Agent>
-                                      <dc:title>Colin Viebrock</dc:title>
-                                    </cc:Agent>
-                                  </dc:creator>
-                                  <dc:description/>
-                                  <dc:contributor>
-                                    <cc:Agent>
-                                      <dc:title/>
-                                    </cc:Agent>
-                                  </dc:contributor>
-                                  <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
-                                  <dc:rights>
-                                    <cc:Agent>
-                                      <dc:title>Copyright Colin Viebrock 1997 - All rights reserved.</dc:title>
-                                    </cc:Agent>
-                                  </dc:rights>
-                                  <dc:date>1997</dc:date>
-                                </cc:Work>
-                                <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
-                                  <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-                                  <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-                                  <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-                                  <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-                                  <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-                                  <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-                                </cc:License>
-                              </rdf:RDF>
-                            </metadata>
-                            <defs id="defs3434">
-                              <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3444">
-                                <path d="M 11.52,162 C 11.52,81.677 135.307,16.561 288,16.561 l 0,0 c 152.693,0 276.481,65.116 276.481,145.439 l 0,0 c 0,80.322 -123.788,145.439 -276.481,145.439 l 0,0 C 135.307,307.439 11.52,242.322 11.52,162" id="path3446"/>
-                              </clipPath>
-                              <radialGradient cx="0" cy="0" fx="0" fy="0" gradientTransform="matrix(363.05789,0,0,-363.05789,177.52002,256.30713)" gradientUnits="userSpaceOnUse" id="radialGradient3452" r="1" spreadMethod="pad">
-                                <stop id="stop3454" offset="0" style="stop-opacity:1;stop-color:#aeb2d5"/>
-                                <stop id="stop3456" offset="0.3" style="stop-opacity:1;stop-color:#aeb2d5"/>
-                                <stop id="stop3458" offset="0.75" style="stop-opacity:1;stop-color:#484c89"/>
-                                <stop id="stop3460" offset="1" style="stop-opacity:1;stop-color:#484c89"/>
-                              </radialGradient>
-                              <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3468">
-                                <path d="M 0,324 576,324 576,0 0,0 0,324 Z" id="path3470"/>
-                              </clipPath>
-                              <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3480">
-                                <path d="M 0,324 576,324 576,0 0,0 0,324 Z" id="path3482"/>
-                              </clipPath>
-                            </defs>
-                            <g id="g3438" transform="matrix(1.25,0,0,-1.25,-4.4,394.29875)">
-                              <g id="g3440">
-                                <g clip-path="url(#clipPath3444)" id="g3442">
-                                  <g id="g3448">
-                                    <g id="g3450">
-                                      <path d="M 11.52,162 C 11.52,81.677 135.307,16.561 288,16.561 l 0,0 c 152.693,0 276.481,65.116 276.481,145.439 l 0,0 c 0,80.322 -123.788,145.439 -276.481,145.439 l 0,0 C 135.307,307.439 11.52,242.322 11.52,162" id="path3462" style="fill:url(#radialGradient3452);stroke:none"/>
-                                    </g>
-                                  </g>
-                                </g>
-                              </g>
-                              <g id="g3464">
-                                <g clip-path="url(#clipPath3468)" id="g3466">
-                                  <g id="g3472" transform="translate(288,27.3594)">
-                                    <path d="M 0,0 C 146.729,0 265.68,60.281 265.68,134.641 265.68,209 146.729,269.282 0,269.282 -146.729,269.282 -265.68,209 -265.68,134.641 -265.68,60.281 -146.729,0 0,0" id="path3474" style="fill:#777bb3;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
-                                  </g>
-                                </g>
-                              </g>
-                              <g id="g3476">
-                                <g clip-path="url(#clipPath3480)" id="g3478">
-                                  <g id="g3484" transform="translate(161.7344,145.3066)">
-                                    <path d="m 0,0 c 12.065,0 21.072,2.225 26.771,6.611 5.638,4.341 9.532,11.862 11.573,22.353 1.903,9.806 1.178,16.653 -2.154,20.348 C 32.783,53.086 25.417,55 14.297,55 L -4.984,55 -15.673,0 0,0 Z m -63.063,-67.75 c -0.895,0 -1.745,0.4 -2.314,1.092 -0.57,0.691 -0.801,1.601 -0.63,2.48 L -37.679,81.573 C -37.405,82.982 -36.17,84 -34.734,84 L 26.32,84 C 45.508,84 59.79,78.79 68.767,68.513 77.792,58.182 80.579,43.741 77.05,25.592 75.614,18.198 73.144,11.331 69.709,5.183 66.27,-0.972 61.725,-6.667 56.198,-11.747 49.582,-17.939 42.094,-22.429 33.962,-25.071 25.959,-27.678 15.681,-29 3.414,-29 l -24.722,0 -7.06,-36.322 c -0.274,-1.41 -1.508,-2.428 -2.944,-2.428 l -31.751,0 z" id="path3486" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
-                                  </g>
-                                  <g id="g3488" transform="translate(159.2236,197.3071)">
-                                    <path d="m 0,0 16.808,0 c 13.421,0 18.083,-2.945 19.667,-4.7 2.628,-2.914 3.124,-9.058 1.435,-17.767 C 36.012,-32.217 32.494,-39.13 27.452,-43.012 22.29,-46.986 13.898,-49 2.511,-49 L -9.523,-49 0,0 Z m 28.831,35 -61.055,0 c -2.872,0 -5.341,-2.036 -5.889,-4.855 l -28.328,-145.751 c -0.342,-1.759 0.12,-3.578 1.259,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.75,0 c 2.873,0 5.342,2.036 5.89,4.855 l 6.588,33.895 22.249,0 c 12.582,0 23.174,1.372 31.479,4.077 8.541,2.775 16.399,7.48 23.354,13.984 5.752,5.292 10.49,11.232 14.08,17.657 3.591,6.427 6.171,13.594 7.668,21.302 3.715,19.104 0.697,34.402 -8.969,45.466 C 63.965,29.444 48.923,35 28.831,35 m -45.633,-90 19.313,0 c 12.801,0 22.336,2.411 28.601,7.234 6.266,4.824 10.492,12.875 12.688,24.157 2.101,10.832 1.144,18.476 -2.871,22.929 C 36.909,3.773 28.87,6 16.808,6 L -4.946,6 -16.802,-55 M 28.831,29 C 47.198,29 60.597,24.18 69.019,14.539 77.44,4.898 79.976,-8.559 76.616,-25.836 75.233,-32.953 72.894,-39.46 69.601,-45.355 66.304,-51.254 61.999,-56.648 56.679,-61.539 50.339,-67.472 43.296,-71.7 35.546,-74.218 27.796,-76.743 17.925,-78 5.925,-78 l -27.196,0 -7.531,-38.75 -31.75,0 28.328,145.75 61.055,0" id="path3490" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
-                                  </g>
-                                  <g id="g3492" transform="translate(311.583,116.3066)">
-                                    <path d="m 0,0 c -0.896,0 -1.745,0.4 -2.314,1.092 -0.571,0.691 -0.802,1.6 -0.631,2.48 L 9.586,68.061 C 10.778,74.194 10.484,78.596 8.759,80.456 7.703,81.593 4.531,83.5 -4.848,83.5 L -27.55,83.5 -43.305,2.428 C -43.579,1.018 -44.814,0 -46.25,0 l -31.5,0 c -0.896,0 -1.745,0.4 -2.315,1.092 -0.57,0.691 -0.801,1.601 -0.63,2.48 l 28.328,145.751 c 0.274,1.409 1.509,2.427 2.945,2.427 l 31.5,0 c 0.896,0 1.745,-0.4 2.315,-1.091 0.57,-0.692 0.801,-1.601 0.63,-2.481 L -21.813,113 2.609,113 c 18.605,0 31.221,-3.28 38.569,-10.028 7.49,-6.884 9.827,-17.891 6.947,-32.719 L 34.945,2.428 C 34.671,1.018 33.437,0 32,0 L 0,0 Z" id="path3494" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
-                                  </g>
-                                  <g id="g3496" transform="translate(293.6611,271.0571)">
-                                    <path d="m 0,0 -31.5,0 c -2.873,0 -5.342,-2.036 -5.89,-4.855 l -28.328,-145.751 c -0.342,-1.759 0.12,-3.578 1.26,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.5,0 c 2.872,0 5.342,2.036 5.89,4.855 l 15.283,78.645 20.229,0 c 9.363,0 11.328,-2 11.407,-2.086 0.568,-0.611 1.315,-3.441 0.082,-9.781 l -12.531,-64.489 c -0.342,-1.759 0.12,-3.578 1.26,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 32,0 c 2.872,0 5.342,2.036 5.89,4.855 l 13.179,67.825 c 3.093,15.921 0.447,27.864 -7.861,35.5 -7.928,7.281 -21.208,10.82 -40.599,10.82 l -20.784,0 6.143,31.605 C 6.231,-5.386 5.77,-3.566 4.63,-2.184 3.49,-0.801 1.792,0 0,0 m 0,-6 -7.531,-38.75 28.062,0 c 17.657,0 29.836,-3.082 36.539,-9.238 6.703,-6.16 8.711,-16.141 6.032,-29.938 l -13.18,-67.824 -32,0 12.531,64.488 c 1.426,7.336 0.902,12.34 -1.574,15.008 -2.477,2.668 -7.746,4.004 -15.805,4.004 l -25.176,0 -16.226,-83.5 -31.5,0 L -31.5,-6 0,-6" id="path3498" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
-                                  </g>
-                                  <g id="g3500" transform="translate(409.5498,145.3066)">
-                                    <path d="m 0,0 c 12.065,0 21.072,2.225 26.771,6.611 5.638,4.34 9.532,11.861 11.574,22.353 1.903,9.806 1.178,16.653 -2.155,20.348 C 32.783,53.086 25.417,55 14.297,55 L -4.984,55 -15.673,0 0,0 Z m -63.062,-67.75 c -0.895,0 -1.745,0.4 -2.314,1.092 -0.57,0.691 -0.802,1.601 -0.631,2.48 L -37.679,81.573 C -37.404,82.982 -36.17,84 -34.733,84 L 26.32,84 C 45.509,84 59.79,78.79 68.768,68.513 77.793,58.183 80.579,43.742 77.051,25.592 75.613,18.198 73.144,11.331 69.709,5.183 66.27,-0.972 61.725,-6.667 56.198,-11.747 49.582,-17.939 42.094,-22.429 33.962,-25.071 25.959,-27.678 15.681,-29 3.414,-29 l -24.723,0 -7.057,-36.322 c -0.275,-1.41 -1.509,-2.428 -2.946,-2.428 l -31.75,0 z" id="path3502" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
-                                  </g>
-                                  <g id="g3504" transform="translate(407.0391,197.3071)">
-                                    <path d="M 0,0 16.808,0 C 30.229,0 34.891,-2.945 36.475,-4.7 39.104,-7.614 39.6,-13.758 37.91,-22.466 36.012,-32.217 32.493,-39.13 27.452,-43.012 22.29,-46.986 13.898,-49 2.511,-49 L -9.522,-49 0,0 Z m 28.831,35 -61.054,0 c -2.872,0 -5.341,-2.036 -5.889,-4.855 L -66.44,-115.606 c -0.342,-1.759 0.12,-3.578 1.259,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.75,0 c 2.872,0 5.342,2.036 5.89,4.855 l 6.587,33.895 22.249,0 c 12.582,0 23.174,1.372 31.479,4.077 8.541,2.775 16.401,7.481 23.356,13.986 5.752,5.291 10.488,11.23 14.078,17.655 3.591,6.427 6.171,13.594 7.668,21.302 3.715,19.105 0.697,34.403 -8.969,45.467 C 63.965,29.444 48.924,35 28.831,35 m -45.632,-90 19.312,0 c 12.801,0 22.336,2.411 28.601,7.234 6.267,4.824 10.492,12.875 12.688,24.157 2.102,10.832 1.145,18.476 -2.871,22.929 C 36.909,3.773 28.87,6 16.808,6 L -4.946,6 -16.801,-55 M 28.831,29 C 47.198,29 60.597,24.18 69.019,14.539 77.441,4.898 79.976,-8.559 76.616,-25.836 75.233,-32.953 72.894,-39.46 69.601,-45.355 66.304,-51.254 61.999,-56.648 56.679,-61.539 50.339,-67.472 43.296,-71.7 35.546,-74.218 27.796,-76.743 17.925,-78 5.925,-78 l -27.196,0 -7.53,-38.75 -31.75,0 28.328,145.75 61.054,0" id="path3506" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
-                                  </g>
-                                </g>
-                              </g>
-                            </g>
-                        </svg>
-                        <!-- Logo JS -->
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
-                            <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
-                        </svg>
-                        <!-- Logo Laravel -->
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="-4 0 264 264" version="1.1" preserveAspectRatio="xMidYMid">
-                            <g>
-                                <path d="M255.855641,59.619717 C255.950565,59.9710596 256,60.3333149 256,60.6972536 L256,117.265345 C256,118.743206 255.209409,120.108149 253.927418,120.843385 L206.448786,148.178786 L206.448786,202.359798 C206.448786,203.834322 205.665123,205.195421 204.386515,205.937838 L105.27893,262.990563 C105.05208,263.119455 104.804608,263.201946 104.557135,263.289593 C104.464333,263.320527 104.376687,263.377239 104.278729,263.403017 C103.585929,263.58546 102.857701,263.58546 102.164901,263.403017 C102.051476,263.372083 101.948363,263.310215 101.840093,263.26897 C101.613244,263.186479 101.376082,263.1143 101.159544,262.990563 L2.07258227,205.937838 C0.7913718,205.201819 0,203.837372 0,202.359798 L0,32.6555248 C0,32.2843161 0.0515567729,31.9234187 0.144358964,31.5728326 C0.175293028,31.454252 0.24747251,31.3459828 0.288717928,31.2274022 C0.366053087,31.0108638 0.438232569,30.7891697 0.55165747,30.5880982 C0.628992629,30.4540506 0.742417529,30.3457814 0.83521972,30.2220451 C0.953800298,30.0570635 1.06206952,29.8869261 1.20127281,29.7425672 C1.31985339,29.6239866 1.4745237,29.5363401 1.60857131,29.4332265 C1.75808595,29.3094903 1.89213356,29.1754427 2.06227091,29.0774848 L2.06742659,29.0774848 L51.6134853,0.551122364 C52.8901903,-0.183535768 54.4613221,-0.183535768 55.7380271,0.551122364 L105.284086,29.0774848 L105.294397,29.0774848 C105.459379,29.1805983 105.598582,29.3094903 105.748097,29.4280708 C105.882144,29.5311844 106.031659,29.6239866 106.15024,29.7374115 C106.294599,29.8869261 106.397712,30.0570635 106.521448,30.2220451 C106.609095,30.3457814 106.727676,30.4540506 106.799855,30.5880982 C106.918436,30.7943253 106.985459,31.0108638 107.06795,31.2274022 C107.109196,31.3459828 107.181375,31.454252 107.212309,31.5779883 C107.307234,31.9293308 107.355765,32.2915861 107.356668,32.6555248 L107.356668,138.651094 L148.643332,114.878266 L148.643332,60.6920979 C148.643332,60.3312005 148.694889,59.9651474 148.787691,59.619717 C148.823781,59.4959808 148.890804,59.3877116 148.93205,59.269131 C149.014541,59.0525925 149.08672,58.8308984 149.200145,58.629827 C149.27748,58.4957794 149.390905,58.3875102 149.478552,58.2637739 C149.602288,58.0987922 149.705401,57.9286549 149.84976,57.7842959 C149.968341,57.6657153 150.117856,57.5780688 150.251903,57.4749553 C150.406573,57.351219 150.540621,57.2171714 150.705603,57.1192136 L150.710758,57.1192136 L200.261973,28.5928511 C201.538395,27.8571345 203.110093,27.8571345 204.386515,28.5928511 L253.932573,57.1192136 C254.107866,57.2223271 254.241914,57.351219 254.396584,57.4697996 C254.525476,57.5729132 254.674991,57.6657153 254.793572,57.7791402 C254.93793,57.9286549 255.041044,58.0987922 255.16478,58.2637739 C255.257582,58.3875102 255.371007,58.4957794 255.443187,58.629827 C255.561767,58.8308984 255.628791,59.0525925 255.711282,59.269131 C255.757683,59.3877116 255.824707,59.4959808 255.855641,59.619717 Z M247.740605,114.878266 L247.740605,67.8378666 L230.402062,77.8192579 L206.448786,91.6106946 L206.448786,138.651094 L247.745761,114.878266 L247.740605,114.878266 Z M198.194546,199.97272 L198.194546,152.901386 L174.633101,166.357704 L107.351512,204.757188 L107.351512,252.27191 L198.194546,199.97272 Z M8.25939501,39.7961379 L8.25939501,199.97272 L99.0921175,252.266755 L99.0921175,204.762344 L51.6392637,177.906421 L51.6237967,177.89611 L51.603174,177.885798 C51.443348,177.792996 51.3093004,177.658949 51.1597857,177.545524 C51.0308938,177.44241 50.8813791,177.359919 50.7679542,177.246494 L50.7576429,177.231027 C50.6235953,177.102135 50.5307931,176.942309 50.4173682,176.79795 C50.3142546,176.658747 50.1905184,176.540167 50.1080276,176.395808 L50.1028719,176.380341 C50.0100697,176.22567 49.9533572,176.040066 49.8863334,175.864773 C49.8193096,175.710103 49.7316631,175.565744 49.6904177,175.400762 L49.6904177,175.395606 C49.6388609,175.19969 49.6285496,174.993463 49.6079269,174.792392 C49.5873041,174.637722 49.5460587,174.483051 49.5460587,174.328381 L49.5460587,174.31807 L49.5460587,63.5689658 L25.5979377,49.7723734 L8.25939501,39.8012935 L8.25939501,39.7961379 Z M53.6809119,8.89300821 L12.3994039,32.6555248 L53.6706006,56.4180414 L94.9469529,32.6503692 L53.6706006,8.89300821 L53.6809119,8.89300821 Z M75.1491521,157.19091 L99.0972731,143.404629 L99.0972731,39.7961379 L81.7587304,49.7775291 L57.8054537,63.5689658 L57.8054537,167.177457 L75.1491521,157.19091 Z M202.324244,36.934737 L161.047891,60.6972536 L202.324244,84.4597702 L243.59544,60.6920979 L202.324244,36.934737 Z M198.194546,91.6106946 L174.24127,77.8192579 L156.902727,67.8378666 L156.902727,114.878266 L180.850848,128.664547 L198.194546,138.651094 L198.194546,91.6106946 Z M103.216659,197.616575 L163.759778,163.052915 L194.023603,145.781396 L152.778185,122.034346 L105.289242,149.374903 L62.0073307,174.292291 L103.216659,197.616575 Z" fill="#FF2D20">
-                                </path>
-                            </g>
-                        </svg>
-                        <!-- Logo Tailwind -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" fill="none" viewBox="0 0 54 33"><g clip-path="url(#prefix__clip0)"><path fill="#38bdf8" fill-rule="evenodd" d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z" clip-rule="evenodd"/></g><defs><clipPath id="prefix__clip0"><path fill="#fff" d="M0 0h54v32.4H0z"/></clipPath></defs></svg>
-                        <!-- Logo Mysql -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="-18.458 -22.75 191.151 191.151"><path d="M-18.458 6.58h191.151v132.49H-18.458V6.58z" fill="none"/><path d="M40.054 113.583h-5.175c-.183-8.735-.687-16.947-1.511-24.642h-.046l-7.879 24.642h-3.94l-7.832-24.642h-.045c-.581 7.388-.947 15.602-1.099 24.642H7.81c.304-10.993 1.068-21.299 2.289-30.919h6.414l7.465 22.719h.046l7.511-22.719h6.137c1.344 11.268 2.138 21.575 2.382 30.919M62.497 90.771c-2.107 11.434-4.887 19.742-8.337 24.928-2.688 3.992-5.633 5.99-8.84 5.99-.855 0-1.91-.258-3.16-.77v-2.757c.611.088 1.328.138 2.152.138 1.498 0 2.702-.412 3.62-1.238 1.098-1.006 1.647-2.137 1.647-3.388 0-.858-.428-2.612-1.282-5.268L42.618 90.77h5.084l4.076 13.19c.916 2.995 1.298 5.086 1.145 6.277 2.229-5.953 3.786-12.444 4.673-19.468h4.901v.002z" fill="#5d87a1"/><path d="M131.382 113.583h-14.7V82.664h4.945v27.113h9.755v3.806zM112.834 114.33l-5.684-2.805c.504-.414.986-.862 1.42-1.381 2.416-2.838 3.621-7.035 3.621-12.594 0-10.229-4.014-15.346-12.045-15.346-3.938 0-7.01 1.298-9.207 3.895-2.414 2.84-3.619 7.022-3.619 12.551 0 5.435 1.068 9.422 3.205 11.951 1.955 2.291 4.902 3.438 8.843 3.438 1.47 0 2.819-.18 4.048-.543l7.4 4.308 2.018-3.474zm-18.413-6.934c-1.252-2.014-1.878-5.248-1.878-9.707 0-7.785 2.365-11.682 7.1-11.682 2.475 0 4.289.932 5.449 2.792 1.25 2.017 1.879 5.222 1.879 9.619 0 7.849-2.367 11.774-7.099 11.774-2.476.001-4.29-.928-5.451-2.796M85.165 105.013c0 2.622-.962 4.773-2.884 6.458-1.924 1.678-4.504 2.519-7.737 2.519-3.024 0-5.956-.966-8.794-2.888l1.329-2.655c2.442 1.223 4.653 1.831 6.638 1.831 1.863 0 3.319-.413 4.375-1.232 1.055-.822 1.684-1.975 1.684-3.433 0-1.837-1.281-3.407-3.631-4.722-2.167-1.19-6.501-3.678-6.501-3.678-2.349-1.712-3.525-3.55-3.525-6.578 0-2.506.877-4.529 2.632-6.068 1.757-1.545 4.024-2.315 6.803-2.315 2.87 0 5.479.769 7.829 2.291l-1.192 2.656c-2.01-.854-3.994-1.281-5.951-1.281-1.585 0-2.809.381-3.66 1.146-.858.762-1.387 1.737-1.387 2.933 0 1.828 1.308 3.418 3.722 4.759 2.196 1.192 6.638 3.723 6.638 3.723 2.409 1.709 3.612 3.53 3.612 6.534" fill="#f8981d"/><path d="M137.59 72.308c-2.99-.076-5.305.225-7.248 1.047-.561.224-1.453.224-1.531.933.303.3.338.784.601 1.198.448.747 1.229 1.752 1.942 2.276.783.6 1.569 1.194 2.393 1.717 1.453.899 3.1 1.422 4.516 2.318.825.521 1.645 1.195 2.471 1.756.406.299.666.784 1.193.971v-.114c-.264-.336-.339-.822-.598-1.196l-1.122-1.082c-1.084-1.456-2.431-2.727-3.884-3.771-1.196-.824-3.812-1.944-4.297-3.322l-.076-.076c.822-.077 1.797-.375 2.578-.604 1.271-.335 2.43-.259 3.734-.594.6-.15 1.195-.338 1.797-.523v-.337c-.676-.673-1.158-1.567-1.869-2.203-1.902-1.643-3.998-3.25-6.164-4.595-1.16-.749-2.652-1.231-3.887-1.868-.445-.225-1.195-.336-1.457-.71-.67-.822-1.047-1.904-1.533-2.877-1.08-2.053-2.129-4.331-3.061-6.502-.674-1.456-1.084-2.91-1.906-4.257-3.85-6.35-8.031-10.196-14.457-13.971-1.381-.786-3.024-1.121-4.779-1.533l-2.803-.148c-.598-.262-1.197-.973-1.719-1.309-2.132-1.344-7.621-4.257-9.189-.411-1.01 2.431 1.494 4.821 2.354 6.054.635.856 1.458 1.83 1.902 2.802.263.635.337 1.309.6 1.98.598 1.644 1.157 3.473 1.943 5.007.41.782.857 1.604 1.381 2.312.3.414.822.597.936 1.272-.521.744-.562 1.867-.861 2.801-1.344 4.221-.819 9.45 1.086 12.552.596.934 2.018 2.99 3.92 2.202 1.684-.672 1.311-2.801 1.795-4.668.111-.451.038-.747.262-1.043v.073c.521 1.045 1.047 2.052 1.53 3.1 1.159 1.829 3.177 3.735 4.858 5.002.895.676 1.604 1.832 2.725 2.245V74.1h-.074c-.227-.335-.559-.485-.857-.745-.674-.673-1.42-1.495-1.943-2.241-1.566-2.093-2.952-4.41-4.182-6.801-.602-1.16-1.121-2.428-1.606-3.586-.226-.447-.226-1.121-.601-1.346-.562.821-1.381 1.532-1.791 2.538-.711 1.609-.785 3.588-1.049 5.646l-.147.072c-1.19-.299-1.604-1.53-2.056-2.575-1.119-2.654-1.307-6.914-.336-9.976.26-.783 1.385-3.249.936-3.995-.225-.715-.973-1.122-1.383-1.685-.482-.708-1.01-1.604-1.346-2.39-.896-2.091-1.347-4.408-2.312-6.498-.451-.974-1.234-1.982-1.868-2.879-.712-1.008-1.495-1.718-2.058-2.913-.186-.411-.447-1.083-.148-1.53.073-.3.225-.412.523-.487.484-.409 1.867.111 2.352.336 1.385.56 2.543 1.083 3.699 1.867.523.375 1.084 1.085 1.755 1.272h.786c1.193.26 2.538.072 3.661.41 1.979.636 3.772 1.569 5.38 2.576 4.893 3.103 8.928 7.512 11.652 12.778.447.858.637 1.644 1.045 2.539.787 1.832 1.76 3.7 2.541 5.493.785 1.755 1.533 3.547 2.654 5.005.559.784 2.805 1.195 3.812 1.606.745.335 1.905.633 2.577 1.044 1.271.783 2.537 1.682 3.732 2.543.595.448 2.465 1.382 2.576 2.13M99.484 39.844a5.82 5.82 0 0 0-1.529.188v.075h.072c.301.597.824 1.011 1.197 1.532.301.599.562 1.193.857 1.791l.072-.074c.527-.373.789-.971.789-1.868-.227-.264-.262-.522-.451-.784-.22-.374-.705-.56-1.007-.86" fill="#5d87a1"/><path d="M141.148 113.578h.774v-3.788h-1.161l-.947 2.585-1.029-2.585h-1.118v3.788h.731v-2.882h.041l1.078 2.882h.557l1.074-2.882v2.882zm-6.235 0h.819v-3.146h1.072v-.643h-3.008v.643h1.115l.002 3.146z" fill="#f8981d"/></svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+    		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		/>
+	</head>
+	<body class="bg-gray-100 text-gray-800">
+		<header class="bg-white shadow-md sticky top-0 z-50">
+			<nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+				<div class="text-2xl font-bold text-blue-600">RenoAji</div>
+				<ul class="hidden md:flex items-center space-x-8">
+					<li>
+						<a
+							href="#hero"
+							class="font-semibold text-gray-700 hover:text-blue-600 transition duration-300"
+							>Home</a
+						>
+					</li>
+					<li>
+						<a
+							href="#about"
+							class="font-semibold text-gray-700 hover:text-blue-600 transition duration-300"
+							>About</a
+						>
+					</li>
+					<li>
+						<a
+							href="#projects"
+							class="font-semibold text-gray-700 hover:text-blue-600 transition duration-300"
+							>Projects</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-    <!-- PROJECT -->
-     <div class="mt-3">
-         <h1 class="text-5xl font-semibold text-center">My Projects</h1>
-         <p class="text-center mt-2 p-3">I build my projects using several tools I familiar with.</p>
-     </div>
-     <div class="flex md:gap-12 gap-5 py-3 px-5 flex-wrap place-content-center">
+		<main>
+			<section id="hero" class="bg-white">
+				<div
+					class="container mx-auto px-6 py-24 flex flex-col items-center text-center"
+				>
+					<h1 class="text-4xl md:text-5xl font-bold mb-3">
+						Hello, My name Septareno Nugroho Aji
+					</h1>
+					<p class="text-lg text-gray-600 mb-8 max-w-2xl">
+						College student passionate in programming.
+					</p>
+					<div class="flex space-x-6 mb-8">
+						<a
+							href="https://www.linkedin.com/in/septareno-nugroho-aji-4743992b3"
+							target="_blank"
+							aria-label="LinkedIn"
+							class="text-gray-700 hover:text-blue-600 transition-transform duration-300 hover:-translate-y-1"
+						>
+							<i class="fab fa-linkedin text-3xl"></i>
+						</a>
+						<a
+							href="https://github.com/RenoAji"
+							target="_blank"
+							aria-label="GitHub"
+							class="text-gray-700 hover:text-blue-600 transition-transform duration-300 hover:-translate-y-1"
+						>
+							<i class="fab fa-github text-3xl"></i>
+						</a>
+						<a
+							href="https://www.instagram.com/renoaji0"
+							target="_blank"
+							aria-label="Instagram"
+							class="text-gray-700 hover:text-blue-600 transition-transform duration-300 hover:-translate-y-1"
+						>
+							<i class="fab fa-instagram text-3xl"></i>
+						</a>
+					</div>
+					<a
+						href="#projects"
+						class="bg-blue-600 text-white font-semibold py-3 px-8 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
+					>
+						Take a look at my projects
+					</a>
+				</div>
+			</section>
 
-        <div class="card bg-base-100 w-96 shadow-2xl border border-slate-300">
-            <figure class="border-b border-slate-300">
-                <img src="img/ss-ebook.png" alt="Project" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Ebook Library App</h2>
-                <p>A webapp where admin can add & manage books while users can borrow & read the book. Visit github repo for admin credentials.</p>
-                <div class="card-actions justify-end">
-                    <a class="btn btn-info" href="https://github.com/RenoAji/ebook-app" target="_blank">Github Repo</a>
-                    <a class="btn btn-primary" href="https://ebook-app.infinityfreeapp.com" target="_blank">Demo</a>
-                </div>
-            </div>
-        </div>
+			<section id="about" class="py-20">
+				<div class="container mx-auto px-6">
+					<h2 class="text-3xl font-bold text-center mb-4">About Me</h2>
+					<div class="w-20 h-1 bg-blue-600 mx-auto mb-12"></div>
+					<p
+						class="max-w-3xl mx-auto text-center text-gray-600 text-base md:text-lg"
+					>
+						I am Septareno Nugroho Aji, an Informatics Engineering student at the
+						Electronic Engineering Polytechnic Institute of Surabaya (EEPIS). I am
+						passionate about the field of programming and am dedicated to becoming a
+						proficient developer. I am always eager to embrace opportunities that will
+						enhance my skills and competencies.
+					</p>
+				</div>
+			</section>
+			<section id="skills" class="py-20">
+				<div class="container mx-auto px-6">
+					<h2 class="text-3xl font-bold text-center mb-4">My Technical Skills</h2>
+					<div class="w-20 h-1 bg-blue-600 mx-auto mb-12"></div>
 
-        <div class="card bg-base-100 w-96 shadow-2xl border border-slate-300">
-            <figure class="border-b border-slate-300">
-                <img src="img/ss-learningcamp.png" alt="Project" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Learning Camp</h2>
-                <p>A webapp where admin can create & manage course while users can buy & learn the course. Visit github repo for admin credentials.</p>
-                <div class="card-actions justify-end">
-                    <a class="btn btn-info" href="https://github.com/RenoAji/learning-camp" target="_blank">Github Repo</a>
-                    <a class="btn btn-primary" href="https://learning-camp-deploy.onrender.com" target="_blank">Demo</a>
-                </div>
-            </div>
-        </div>
+					<div
+						class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center"
+					>
+						<div class="bg-white p-6 rounded-lg shadow-lg">
+							<h3 class="text-xl font-bold mb-4">Languages & Database</h3>
+							<div class="flex flex-wrap justify-center gap-4">
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>JavaScript</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>HTML5</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>CSS3</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>Python</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>SQL</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>PHP</span
+								>
+							</div>
+						</div>
 
-     </div>
-</body>
+						<div class="bg-white p-6 rounded-lg shadow-lg">
+							<h3 class="text-xl font-bold mb-4">Framework & Library</h3>
+							<div class="flex flex-wrap justify-center gap-4">
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>React.js</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>Laravel</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>Next.js</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>Tailwind CSS</span
+								>
+							</div>
+						</div>
+
+						<div class="bg-white p-6 rounded-lg shadow-lg">
+							<h3 class="text-xl font-bold mb-4">Tools & Platforms</h3>
+							<div class="flex flex-wrap justify-center gap-4">
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>Git & GitHub</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>Vercel</span
+								>
+								<span
+									class="bg-gray-200 text-gray-800 font-semibold px-4 py-2 rounded-full"
+									>Postman</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects" class="py-20">
+				<div class="container mx-auto px-6">
+					<h2 class="text-3xl font-bold text-center mb-4">My Projects</h2>
+					<div class="w-20 h-1 bg-blue-600 mx-auto mb-12"></div>
+
+					<div class="flex flex-wrap justify-center gap-10">
+						<div
+							class="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-all duration-300 max-w-sm w-full"
+						>
+							<img
+								src="img/ss-learningcamp.png"
+								alt="Gambar Proyek 1"
+								class="w-full h-56 object-cover"
+							/>
+							<div class="p-6 flex flex-col flex-grow">
+								<h3 class="text-xl font-bold mb-2">Learning Camp</h3>
+								<p class="text-gray-600 mb-4 flex-grow">
+									Prototype platform where admin can manage courses, and students can
+									access their courses after registration. Include payments for premium
+									courses.
+								</p>
+								<div class="flex flex-wrap gap-2 mb-6">
+									<span
+										class="bg-red-100 text-red-800 text-xs font-semibold px-3 py-1 rounded-full"
+										>Laravel</span
+									>
+									<span
+										class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full"
+										>Tailwind CSS</span
+									>
+									<span
+										class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-3 py-1 rounded-full"
+										>MySQL</span
+									>
+									<span
+										class="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full"
+										>Midtrans API</span
+									>
+								</div>
+
+								<div class="mt-auto flex gap-4">
+									<a
+										href="https://learning-camp-deploy.onrender.com/"
+										target="_blank"
+										class="w-full flex items-center justify-center gap-2 text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+									>
+										<i class="fas fa-external-link-alt"></i>
+										Live Demo
+									</a>
+									<a
+										href="https://github.com/RenoAji/learning-camp"
+										target="_blank"
+										class="w-full flex items-center justify-center gap-2 text-center bg-gray-700 text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 transition-colors duration-300"
+									>
+										<i class="fab fa-github"></i>
+										GitHub
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-all duration-300 max-w-sm w-full"
+						>
+							<img
+								src="img/ss-ebook.png"
+								alt="Gambar Proyek 2"
+								class="w-full h-56 object-cover"
+							/>
+							<div class="p-6 flex flex-col flex-grow">
+								<h3 class="text-xl font-bold mb-2">Ebook App</h3>
+								<p class="text-gray-600 mb-4 flex-grow">
+									An application for reading and managing ebooks, featuring user
+									authentication and ebook borrowing.
+								</p>
+								<div class="flex flex-wrap gap-2 mb-6">
+									<span
+										class="bg-red-100 text-red-800 text-xs font-semibold px-3 py-1 rounded-full"
+										>Laravel</span
+									>
+									<span
+										class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-3 py-1 rounded-full"
+										>MySQL</span
+									>
+									<span
+										class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full"
+										>Bootstrap</span
+									>
+								</div>
+
+								<div class="mt-auto flex gap-4">
+									<a
+										href="https://github.com/RenoAji/ebook-app"
+										target="_blank"
+										class="w-full flex items-center justify-center gap-2 text-center bg-gray-700 text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 transition-colors duration-300"
+									>
+										<i class="fab fa-github"></i>
+										GitHub
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="services" class="bg-white py-20">
+				<div class="container mx-auto px-6">
+					<h2 class="text-3xl font-bold text-center mb-4">Services I Offer</h2>
+					<div class="w-20 h-1 bg-blue-600 mx-auto mb-12"></div>
+					<p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+						I provide various web development services to help bring your ideas to
+						life as functional and attractive digital products.
+					</p>
+
+					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+						<div
+							class="text-center bg-gray-50 p-8 rounded-lg shadow-md transition-transform duration-300 transform hover:-translate-y-2"
+						>
+							<div
+								class="inline-block bg-blue-100 text-blue-600 p-4 rounded-full mb-6"
+							>
+								<i class="fas fa-object-group fa-2x"></i>
+							</div>
+							<h3 class="text-xl font-bold mb-3">Frontend Development</h3>
+							<p class="text-gray-600">
+								Building interactive, modern, and user-friendly user interfaces (UI)
+								using the latest technologies like React, and Tailwind CSS.
+							</p>
+						</div>
+
+						<div
+							class="text-center bg-gray-50 p-8 rounded-lg shadow-md transition-transform duration-300 transform hover:-translate-y-2"
+						>
+							<div
+								class="inline-block bg-blue-100 text-blue-600 p-4 rounded-full mb-6"
+							>
+								<i class="fas fa-server fa-2x"></i>
+							</div>
+							<h3 class="text-xl font-bold mb-3">Backend Development</h3>
+							<p class="text-gray-600">
+								Designing and developing reliable server-side applications, including
+								API creation, database management, and business logic with Node js, PHP,
+								Laravel, and SQL.
+							</p>
+						</div>
+
+						<div
+							class="text-center bg-gray-50 p-8 rounded-lg shadow-md transition-transform duration-300 transform hover:-translate-y-2"
+						>
+							<div
+								class="inline-block bg-blue-100 text-blue-600 p-4 rounded-full mb-6"
+							>
+								<i class="fas fa-mobile-screen-button fa-2x"></i>
+							</div>
+							<h3 class="text-xl font-bold mb-3">Responsive Design</h3>
+							<p class="text-gray-600">
+								Ensuring your website looks perfect on all devices, from desktop,
+								tablet, to smartphone, with a mobile-first approach.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="bg-white py-20">
+				<div class="container mx-auto px-6 text-center">
+					<h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+					<div class="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
+					<p class="text-gray-600 text-lg max-w-2xl mx-auto mb-8">
+						I'm always open to discussions, collaborations, or new opportunities.
+						Don't hesitate to reach out to me.
+					</p>
+					<a
+						href="mailto:renoaji25sep@gmail.com"
+						target="_blank"
+						class="inline-block bg-blue-600 text-white text-lg font-semibold py-3 px-8 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
+					>
+						<i class="fas fa-envelope mr-2"></i> Send Email
+					</a>
+				</div>
+			</section>
+		</main>
+
+		<footer class="bg-gray-800 text-white py-6">
+			<div class="container mx-auto px-6 text-center">
+				<p>&copy; 2025 Septareno.</p>
+			</div>
+		</footer>
+	</body>
 </html>
