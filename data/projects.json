@@ -1,0 +1,290 @@
+[
+  {
+    "title": "Ecommerce Microservice",
+    "image": "img/microservices.png",
+    "alt": "Ecommerce Microservice Screenshot",
+    "description": "A scalable e-commerce platform built with microservice architecture. Features user auth, product catalog, cart, order management, and Midtrans payment integration.",
+    "tags": [
+      {
+        "label": "Go",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "gRPC",
+        "className": "bg-red-100 text-red-800"
+      },
+      {
+        "label": "Redis",
+        "className": "bg-red-100 text-red-800"
+      },
+      {
+        "label": "Docker",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "PostgreSQL",
+        "className": "bg-yellow-100 text-yellow-800"
+      },
+      {
+        "label": "Nginx",
+        "className": "bg-green-100 text-green-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://github.com/RenoAji/ecommerce-microservice",
+        "label": "GitHub",
+        "icon": "fab fa-github",
+        "className": "bg-gray-700 text-white hover:bg-gray-800"
+      }
+    ]
+  },
+  {
+    "title": "Peminjaman Ruangan",
+    "image": "img/peminjaman_ruangan.png",
+    "alt": "Peminjaman Ruangan Screenshot",
+    "description": "A full-stack room booking system with backend API, frontend web app, mobile app, and Docker-based infrastructure. Features room management and booking workflows.",
+    "tags": [
+      {
+        "label": "ASP.NET Core",
+        "className": "bg-purple-100 text-purple-800"
+      },
+      {
+        "label": "React",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "TypeScript",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "PostgreSQL",
+        "className": "bg-yellow-100 text-yellow-800"
+      },
+      {
+        "label": "Docker",
+        "className": "bg-blue-100 text-blue-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://github.com/RenoAji/2026-peminjaman-ruangan-docs",
+        "label": "GitHub",
+        "icon": "fab fa-github",
+        "className": "bg-gray-700 text-white hover:bg-gray-800"
+      }
+    ]
+  },
+  {
+    "title": "CodeSync",
+    "image": "img/codesync.png",
+    "alt": "CodeSync Screenshot",
+    "description": "A real-time collaborative code editor with multi-user support, Monaco Editor integration, and conflict-free synchronization using Yjs CRDT over WebSocket.",
+    "tags": [
+      {
+        "label": "React",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "TypeScript",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "NestJS",
+        "className": "bg-red-100 text-red-800"
+      },
+      {
+        "label": "Yjs CRDT",
+        "className": "bg-yellow-100 text-yellow-800"
+      },
+      {
+        "label": "WebSocket",
+        "className": "bg-green-100 text-green-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://github.com/RenoAji/codesync",
+        "label": "GitHub",
+        "icon": "fab fa-github",
+        "className": "bg-gray-700 text-white hover:bg-gray-800"
+      }
+    ]
+  },
+  {
+    "title": "Info Vault",
+    "image": "img/ss-infovault.png",
+    "alt": "Info Vault Screenshot",
+    "description": "A knowledge base assistant that lets users chat about their documents with RAG, generate notes, and generate mindmaps.",
+    "tags": [
+      {
+        "label": "Next.js",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "LangChain",
+        "className": "bg-green-100 text-green-800"
+      },
+      {
+        "label": "Chroma DB",
+        "className": "bg-yellow-100 text-yellow-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://github.com/RenoAji/info-vault",
+        "label": "GitHub",
+        "icon": "fab fa-github",
+        "className": "bg-gray-700 text-white hover:bg-gray-800"
+      }
+    ]
+  },
+  {
+    "title": "Learning Camp",
+    "image": "img/ss-learningcamp.png",
+    "alt": "Learning Camp Screenshot",
+    "description": "Prototype platform where admin can manage courses, and students can access their courses after registration. Includes payments for premium courses.",
+    "tags": [
+      {
+        "label": "Laravel",
+        "className": "bg-red-100 text-red-800"
+      },
+      {
+        "label": "Tailwind CSS",
+        "className": "bg-green-100 text-green-800"
+      },
+      {
+        "label": "MySQL",
+        "className": "bg-yellow-100 text-yellow-800"
+      },
+      {
+        "label": "Midtrans API",
+        "className": "bg-blue-100 text-blue-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://github.com/RenoAji/learning-camp-deploy",
+        "label": "GitHub",
+        "icon": "fab fa-github",
+        "className": "bg-gray-700 text-white hover:bg-gray-800"
+      }
+    ]
+  },
+  {
+    "title": "24 Game",
+    "image": "img/24_game.png",
+    "alt": "24 Game Screenshot",
+    "description": "A simple number game with a real-time leaderboard powered by Redis sorted sets and WebSocket for live score updates.",
+    "tags": [
+      {
+        "label": "Vue.js",
+        "className": "bg-yellow-100 text-yellow-800"
+      },
+      {
+        "label": "JavaScript",
+        "className": "bg-yellow-100 text-yellow-800"
+      },
+      {
+        "label": "Redis",
+        "className": "bg-red-100 text-red-800"
+      },
+      {
+        "label": "WebSocket",
+        "className": "bg-green-100 text-green-800"
+      },
+      {
+        "label": "Docker",
+        "className": "bg-blue-100 text-blue-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://github.com/RenoAji/24_game",
+        "label": "GitHub",
+        "icon": "fab fa-github",
+        "className": "bg-gray-700 text-white hover:bg-gray-800"
+      }
+    ]
+  },
+  {
+    "title": "Otak Atik",
+    "image": "img/Otak_Atik_Logo.jpeg",
+    "alt": "Otak Atik Screenshot",
+    "description": "Website for gadget repairment business, allowing users to book repair appointments and view service details. Also includes an admin dashboard for managing bookings and services.",
+    "tags": [
+      {
+        "label": "Web App",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "Netlify",
+        "className": "bg-green-100 text-green-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://otak-atik.netlify.app",
+        "label": "Live Demo",
+        "icon": "fas fa-arrow-up-right-from-square",
+        "className": "bg-blue-600 text-white hover:bg-blue-700"
+      }
+    ]
+  },
+  {
+    "title": "Ebook App",
+    "image": "img/ss-ebook.png",
+    "alt": "Ebook App Screenshot",
+    "description": "An application for reading and managing ebooks, featuring user authentication and ebook borrowing.",
+    "tags": [
+      {
+        "label": "Laravel",
+        "className": "bg-red-100 text-red-800"
+      },
+      {
+        "label": "MySQL",
+        "className": "bg-yellow-100 text-yellow-800"
+      },
+      {
+        "label": "Bootstrap",
+        "className": "bg-green-100 text-green-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://github.com/RenoAji/ebook-app",
+        "label": "GitHub",
+        "icon": "fab fa-github",
+        "className": "bg-gray-700 text-white hover:bg-gray-800"
+      }
+    ]
+  },
+  {
+    "title": "ESP32 TFT To-Do List",
+    "image": "img/esp32-todolist.jpeg",
+    "alt": "ESP32 TFT To-Do List Screenshot",
+    "description": "An embedded to-do list project built on ESP32 with a TFT display interface, allowing users to manage tasks directly on-device.",
+    "tags": [
+      {
+        "label": "ESP32",
+        "className": "bg-blue-100 text-blue-800"
+      },
+      {
+        "label": "TFT Display",
+        "className": "bg-green-100 text-green-800"
+      },
+      {
+        "label": "Embedded",
+        "className": "bg-yellow-100 text-yellow-800"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://github.com/RenoAji/todo-list-esp32-tft",
+        "label": "GitHub",
+        "icon": "fab fa-github",
+        "className": "bg-gray-700 text-white hover:bg-gray-800"
+      }
+    ]
+  }
+]

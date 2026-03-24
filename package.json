@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build:projects": "node scripts/generate-projects.js",
+    "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "build": "npm run build:projects && npm run build:css"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   }
