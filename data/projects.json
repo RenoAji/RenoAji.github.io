@@ -263,7 +263,7 @@
     "title": "ESP32 TFT To-Do List",
     "image": "img/esp32-todolist.jpeg",
     "alt": "ESP32 TFT To-Do List Screenshot",
-    "description": "An embedded to-do list project built on ESP32 with a TFT display interface, allowing users to manage tasks directly on-device.",
+    "description": "An embedded to-do list project built on ESP32 + TFT Screen that integrates with Google Tasks API through Google Apps Script.",
     "tags": [
       {
         "label": "ESP32",
