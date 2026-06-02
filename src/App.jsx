@@ -32,16 +32,16 @@ const Hero = () => (
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, type: 'spring', bounce: 0.5 }}
-          className="inline-block bg-neo-bg border-4 border-neo-black px-4 py-2 mb-6 brutal-shadow"
+          className="inline-block bg-neo-bg border-4 border-neo-black px-4 py-2 mb-6 brutal-shadow max-w-full"
         >
-          <span className="text-xl font-bold uppercase tracking-widest typing-cursor">Hello, I'm Septareno</span>
+          <span className="text-base sm:text-xl font-bold uppercase tracking-widest typing-cursor">Hello, I'm Septareno</span>
         </motion.div>
         
         <motion.h1 
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-6xl md:text-8xl font-black uppercase leading-none mb-8 tracking-tighter"
+          className="text-5xl sm:text-6xl md:text-8xl font-black uppercase leading-none mb-8 tracking-tighter break-words"
         >
           Backend <span className="text-neo-bg" style={{ textShadow: "4px 4px 0 #111, -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111" }}>Developer</span> <br/>
           & AI Explorer.
@@ -51,7 +51,7 @@ const Hero = () => (
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="text-2xl font-semibold mb-10 max-w-2xl bg-white border-2 border-neo-black p-4 brutal-shadow"
+          className="text-lg sm:text-2xl font-semibold mb-10 max-w-2xl bg-white border-2 border-neo-black p-4 brutal-shadow"
         >
           Still exploring a bunch of different things in the tech field.
           Currently interested in scalable architectures and Artificial Intelligence.
@@ -81,9 +81,9 @@ const Hero = () => (
 );
 
 const SectionTitle = ({ children, color = "bg-neo-blue" }) => (
-  <div className="flex items-center gap-4 mb-16">
-    <h2 className="text-5xl md:text-6xl font-black uppercase tracking-tighter">{children}</h2>
-    <div className={`h-4 flex-1 border-y-4 border-neo-black ${color}`}></div>
+  <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-12 sm:mb-16 w-full overflow-hidden">
+    <h2 className="text-4xl sm:text-5xl md:text-6xl font-black uppercase tracking-tighter">{children}</h2>
+    <div className={`h-4 w-full sm:flex-1 border-y-4 border-neo-black ${color}`}></div>
   </div>
 );
 
@@ -224,15 +224,15 @@ const ServicesList = () => (
 );
 
 const Contact = () => (
-  <section id="contact" className="py-32 bg-neo-yellow relative overflow-hidden">
+  <section id="contact" className="py-24 sm:py-32 bg-neo-yellow relative overflow-hidden">
     <div className="container mx-auto px-6 text-center relative z-10">
-      <h2 className="text-7xl md:text-9xl font-black uppercase tracking-tighter mb-8 transform -rotate-2">
+      <h2 className="text-5xl sm:text-7xl md:text-9xl font-black uppercase tracking-tighter mb-8 transform -rotate-2">
         Let's Talk!
       </h2>
-      <p className="text-2xl font-bold mb-12 max-w-2xl mx-auto bg-white border-4 border-neo-black p-6 brutal-shadow transform rotate-1">
+      <p className="text-lg sm:text-2xl font-bold mb-12 max-w-2xl mx-auto bg-white border-4 border-neo-black p-6 brutal-shadow transform rotate-1">
         I'm always open to discussions, collaborations, or new opportunities. Don't hesitate to reach out.
       </p>
-      <a href="mailto:renoaji25sep@gmail.com" className="brutal-btn !bg-neo-red text-white !text-2xl !px-12 !py-6 inline-flex items-center gap-4 hover:-rotate-2 transition-transform">
+      <a href="mailto:renoaji25sep@gmail.com" className="brutal-btn !bg-neo-red text-white !text-lg sm:!text-2xl !px-8 sm:!px-12 !py-4 sm:!py-6 inline-flex items-center gap-4 hover:-rotate-2 transition-transform">
         <Mail size={32} /> Send Email
       </a>
     </div>
@@ -240,17 +240,17 @@ const Contact = () => (
 );
 
 const Footer = () => (
-  <footer className="bg-neo-black text-white py-8 border-t-8 border-neo-green">
-    <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+  <footer className="bg-neo-black text-white py-8 border-t-4 sm:border-t-8 border-neo-green">
+    <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
       <div className="text-3xl font-black uppercase tracking-tighter">RenoAji.</div>
-      <p className="font-bold uppercase">&copy; {new Date().getFullYear()} Septareno. All rights reserved.</p>
+      <p className="font-bold uppercase text-sm sm:text-base">&copy; {new Date().getFullYear()} Septareno. All rights reserved.</p>
     </div>
   </footer>
 );
 
 function App() {
   return (
-    <div className="min-h-screen border-8 border-neo-black m-2 md:m-4 bg-neo-bg">
+    <div className="min-h-screen border-4 sm:border-8 border-neo-black sm:m-2 md:m-4 bg-neo-bg overflow-x-hidden">
       <Header />
       <main>
         <Hero />
