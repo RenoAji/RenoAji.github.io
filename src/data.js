@@ -45,7 +45,7 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "PactVault (Peminjaman Ruangan Docs)",
+    title: "Peminjaman Ruangan Docs",
     description:
       "A secure enterprise-grade booking and management resource API infrastructure. Built with a strict database-first approach featuring relational workflow optimizations and object storage integration.",
     image: "/img/peminjaman_ruangan.png",
@@ -92,7 +92,8 @@ export const PROJECTS = [
       "A simple number game with a real-time leaderboard powered by Redis sorted sets and WebSocket for live score updates.",
     image: "/img/24_game.png",
     tags: ["Vue.js", "JavaScript", "Redis", "WebSocket", "Docker"],
-    link: "https://github.com/RenoAji/24_game",
+    link: "https://game-24-f78900180232.herokuapp.com/",
+    isLive: true,
   },
   {
     id: 7,
