@@ -166,7 +166,7 @@ const About = () => (
           </div>
           <div className="bg-neo-blue border-4 border-neo-black p-6 brutal-shadow text-center col-span-1 sm:col-span-2 text-white">
             <h3 className="text-3xl sm:text-4xl font-black mb-2">
-              4th Semester
+              5th Semester
             </h3>
             <p className="text-base sm:text-lg font-bold uppercase">
               Applied Bachelor Student

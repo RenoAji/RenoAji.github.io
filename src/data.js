@@ -28,6 +28,16 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    id: 10,
+    title: "PactVault Mobile Backend",
+    description:
+      "Backend API infrastructure for the PactVault mobile application. As the backend engineer, I implemented a robust notification scheduler, integrated Firebase Cloud Messaging (FCM) for push notifications, and optimized the PostgreSQL database schema.",
+    image: "/img/pactvault.webp",
+    tags: ["ASP.NET Core", "PostgreSQL", "Firebase", "Docker", "Backend Role"],
+    link: "https://play.google.com/store/apps/details?id=com.pactvault&pcampaignid=web_share",
+    isLive: true,
+  },
+  {
     id: 1,
     title: "Monorepo E-Commerce Microservices",
     description:
